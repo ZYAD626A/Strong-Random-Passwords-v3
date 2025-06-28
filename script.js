@@ -90,7 +90,7 @@ if(SelectPassword.value === "easy"){
 
     lengthPass.innerHTML = input.value.length;
 
-}else if(SelectPassword.value === "defecult"){
+}else if(SelectPassword.value === "difficult"){
     num = 1e9;
      randomWords =  cleanWords[w1]
     +signal[w3] 
