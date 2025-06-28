@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Random Password</h3>
+        <input type="password" id="input">
+        <div class="btns">
+        <button onclick="showPassword(this)">Show</button>
+        <button onclick="runFunction()">Create</button>
+        <button onclick="copyText()">Copy</button>
+        </div>
+        <div class="resetButton">
+           
+        </div>
+        <div class="screen">
+            <div class="box">
+                <h3>Type</h3>
+                <h5 id="strong">easy</h5>
+            </div>
+                <div class="box">
+                <h3>length</h3>
+                <h5 id="lengthPass">000</h5>
+            </div>
+                <div class="box">
+                <h3>Make</h3>
+                <select id="selectTypePass">
+                    
+                    <option value="easy">Easy</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                    <option value="defecult">Defecult</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

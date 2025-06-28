@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #111;
+}
+.container{
+    width: 30%;
+    padding: 25px 15px;
+    border: 1px solid rgb(15, 12, 12);
+    box-shadow: 20px 30px 50px rgb(54, 50, 50);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+.container h3{
+    margin: 15px;
+}
+.container input{
+    width:80%;
+    height: 25px;
+    padding: 5px 0;
+    background: rgb(19, 74, 184);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 3px 0;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    position: relative;
+    font-size: 17px;
+}
+.container .btns{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    margin-top: 10px;
+}
+.container button{
+    width:25%;
+    padding: 5px 0;
+    cursor: pointer;
+    background: rgb(19, 74, 184);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 2px;
+}
+.container button:hover , .container button:active{
+    background: rgb(14, 51, 125);
+}
+.container .resetButton{
+    width: 100%;
+}
+.container .resetButton button{
+    margin-top: 10px;
+    width: 80%;
+    padding: 5px 0;
+}
+.container h3{
+    font-size: 20px;
+}
+.screen{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.screen .box{
+    min-width:25%;
+    max-width:30%;
+    text-align: center;
+    font-weight: bold;
+}
+.screen .box select{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.screen .box select option{
+    border: none;
+    outline: none;
+    background: #111;
+    appearance: none;
+    text-align: center;
+
+}
